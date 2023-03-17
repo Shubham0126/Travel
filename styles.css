@@ -1,0 +1,83 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+.horizontal-lines{
+    margin: auto;
+    width: 90%;
+}
+
+/* Navigation Bar */
+
+.list-items{
+    margin: 0 30px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+   
+}
+.list-items:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 4px;
+}
+.logo{
+    margin: 5px 15px;
+    color: white;
+}
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+
+/* Home */
+.container-home{
+    background-image: url('images/travel.png');
+    height: auto;
+    padding: 2% 4%;
+    overflow: hidden;
+}
+
+.home-heading h1{
+    color:yellow;
+    line-height: 1.6;
+    padding-top: 15%;
+}
+.form{
+   padding-top: 5%; 
+}
+.center{
+    text-align: center;
+}
+
+/* Service */
+.service-logo{
+    width: 150px;
+    height: 2000px;
+}
+/* .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+} */
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+/* Footer */
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url('images/footer.png');
+}
+
+footer .nav-link:hover{
+    text-decoration: underline;
+}
+
+
