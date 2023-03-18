@@ -16,3 +16,10 @@ if (window.innerWidth <= 1200) {
 } else {
   console.log('failed');
 }
+
+const nav = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 100) nav.style.background = 'black';
+  else nav.style.background = '';
+});
