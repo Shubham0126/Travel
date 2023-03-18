@@ -35,6 +35,10 @@
     border-color: white;
 }
 
+.navbar-nav .active{
+    color: yellow !important;
+}
+
 /* Home */
 .container-home {
     background-image: url('images/travel.png');
@@ -108,10 +112,42 @@ footer .nav-link:hover {
     font-size: 3.5rem;
 }
 
+/* About Page */
+.container-about{
+    background-image: url('images/About.png');
+    height: 70vh;
+}
+.about-heading{
+    margin-top: 10%;
+    color: yellow;
+}
+.about-heading h1{
+    font-size: 4.5rem;
+}
+
+
+@media (max-width:1500px) {
+    
+    .about-heading{
+        margin-top: 20%;
+    }
+    .container-about{
+        height: 60vh;
+    }
+}
 @media (max-width:750px) {
     .contact-heading {
         margin-top: 30%;
     }
+   .about-heading h1{
+    font-size: 3rem;
+   }
+   .about-heading{
+    margin-top: 30%;
+}
+   .container-about{
+    height: 40vh;
+}
 }
 
 @media (max-width:300px) {
