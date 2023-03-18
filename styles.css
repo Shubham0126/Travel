@@ -1,61 +1,68 @@
-*{
-   margin: 0;
-   padding: 0; 
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.horizontal-lines{
+.horizontal-lines {
     margin: auto;
     width: 90%;
+    color: yellow;
 }
 
 /* Navigation Bar */
 
-.list-items{
+.list-items {
     margin: 0 30px;
     padding: 5px 10px;
     font-size: 1.1rem;
     color: white;
     text-decoration: none;
-   
+
 }
-.list-items:hover{
+
+.list-items:hover {
     background-color: yellow;
     color: black;
     border-radius: 4px;
 }
-.logo{
+
+.logo {
     margin: 5px 15px;
     color: white;
 }
+
 .custom-toggler.navbar-toggler {
     border-color: white;
 }
 
 /* Home */
-.container-home{
+.container-home {
     background-image: url('images/travel.png');
     height: auto;
     padding: 2% 4%;
     overflow: hidden;
 }
 
-.home-heading h1{
-    color:yellow;
+.home-heading h1 {
+    color: yellow;
     line-height: 1.6;
     padding-top: 15%;
 }
-.form{
-   padding-top: 5%; 
+
+.form {
+    padding-top: 5%;
 }
-.center{
+
+.center {
     text-align: center;
 }
 
 /* Service */
-.service-logo{
+.service-logo {
     width: 150px;
     height: 2000px;
 }
+
 /* .card{
     border-radius: 4px;
     background: #fff;
@@ -65,19 +72,50 @@
   cursor: pointer;
 } */
 
-.card:hover{
-     transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
 }
 
 
 /* Footer */
-footer{
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) , url('images/footer.png');
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/footer.png');
 }
 
-footer .nav-link:hover{
+footer .nav-link:hover {
     text-decoration: underline;
 }
 
 
+/* Contact Page */
+.container-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Contact.png');
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+.container-contact h1,
+.container-contact .form {
+    color: yellow;
+}
+
+.contact-heading {
+    margin-top: 10%;
+}
+
+.contact-heading h1 {
+    font-size: 3.5rem;
+}
+
+@media (max-width:750px) {
+    .contact-heading {
+        margin-top: 30%;
+    }
+}
+
+@media (max-width:300px) {
+    .contact-heading h1 {
+        font-size: 2.5rem;
+    }
+}
