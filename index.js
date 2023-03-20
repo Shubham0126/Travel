@@ -8,14 +8,6 @@
 //   console.log("failed");
 // }
 
-const main = document.getElementById('home');
-
-if (window.innerWidth <= 1200) {
-  console.log('Success');
-  main.classList.add('center');
-} else {
-  console.log('failed');
-}
 
 const nav = document.querySelector('.navbar');
 
@@ -24,3 +16,15 @@ window.addEventListener('scroll', () => {
   else nav.style.background = '';
 });
 
+if(window.innerWidth <= 990){
+  nav.classList.add('bg-dark')
+}
+
+const main = document.getElementById('home');
+
+if (window.innerWidth <= 1200) {
+  console.log('Success');
+  main.classList.add('center');
+} else {
+  console.log('failed');
+}

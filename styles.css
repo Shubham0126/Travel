@@ -1,6 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .horizontal-lines {
@@ -35,7 +39,7 @@
     border-color: white;
 }
 
-.navbar-nav .active{
+.navbar-nav .active {
     color: yellow !important;
 }
 
@@ -113,45 +117,134 @@ footer .nav-link:hover {
 }
 
 /* About Page */
-.container-about{
+.container-about {
     background-image: url('images/About.png');
     height: 70vh;
 }
-.about-heading{
+
+.about-heading {
     margin-top: 10%;
     color: yellow;
 }
-.about-heading h1{
+
+.about-heading h1 {
     font-size: 4.5rem;
 }
 
+/* Pricing-Page */
+.container-pricing {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Pricing.png');
+    height: auto;
+
+
+}
+
+.pricing-heading {
+    margin-top: 8%;
+}
+
+.pricing-heading h1 {
+    font-size: 3.6rem;
+}
+
+/* FAQ Page */
+.container-faq {
+    background-image: url('images/faq.png');
+    height: auto;
+    margin: 0%;
+
+}
+
+.faq-heading {
+    margin-top: 5%;
+}
+
+/* privacy page */
+.privacy-heading {
+    margin-top: 5%;
+}
 
 @media (max-width:1500px) {
-    
-    .about-heading{
+
+    .about-heading {
         margin-top: 20%;
     }
-    .container-about{
+
+    .container-about {
         height: 60vh;
     }
+
+    .faq-heading {
+        margin-top: 10%;
+    }
+
+    .privacy-heading {
+        margin-top: 10%;
+    }
+
+    .pricing-heading {
+        margin-top: 10%;
+    }
 }
-@media (max-width:750px) {
+
+@media (max-width:800px) {
     .contact-heading {
         margin-top: 30%;
     }
-   .about-heading h1{
-    font-size: 3rem;
-   }
-   .about-heading{
-    margin-top: 30%;
-}
-   .container-about{
-    height: 40vh;
-}
+
+    .about-heading h1 {
+        font-size: 3rem;
+    }
+
+    .about-heading {
+        margin-top: 30%;
+    }
+
+    .container-about {
+        height: 40vh;
+    }
+
+    .faq-heading {
+        margin-top: 15%;
+    }
+
+    .privacy-heading {
+        margin-top: 15%;
+    }
+
+    .pricing-heading {
+        margin-top: 15%;
+    }
 }
 
-@media (max-width:300px) {
+@media (max-width:600px) {
+    .faq-heading {
+        margin-top: 20%;
+    }
+
+    .privacy-heading {
+        margin-top: 20%;
+    }
+
+    .pricing-heading {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width:400px) {
     .contact-heading h1 {
         font-size: 2.5rem;
+    }
+
+    .faq-heading {
+        margin-top: 25%;
+    }
+
+    .privacy-heading {
+        margin-top: 25%;
+    }
+
+    .pricing-heading {
+        margin-top: 25%;
     }
 }
