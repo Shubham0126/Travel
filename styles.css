@@ -149,7 +149,7 @@ footer .nav-link:hover {
 
 /* FAQ Page */
 .container-faq {
-    background-image: url('images/faq.png');
+    background-image: url('images/FAQs.png');
     height: auto;
     margin: 0%;
 
@@ -246,5 +246,8 @@ footer .nav-link:hover {
 
     .pricing-heading {
         margin-top: 25%;
+    }
+    .home-heading{
+        padding-top: 20%;
     }
 }

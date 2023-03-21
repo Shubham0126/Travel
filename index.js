@@ -9,18 +9,21 @@
 // }
 
 
+const main = document.getElementById('home');
+
 const nav = document.querySelector('.navbar');
+
+
+if(window.innerWidth <= 990){
+  nav.classList.add('bg-dark')
+}
+
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 100) nav.style.background = 'black';
   else nav.style.background = '';
 });
 
-if(window.innerWidth <= 990){
-  nav.classList.add('bg-dark')
-}
-
-const main = document.getElementById('home');
 
 if (window.innerWidth <= 1200) {
   console.log('Success');
