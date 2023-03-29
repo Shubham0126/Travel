@@ -45,7 +45,7 @@ body {
 
 /* Home */
 .container-home {
-    background-image: url('images/travel.png');
+    background-image: url('images/travel.webp');
     height: auto;
     padding: 2% 4%;
     overflow: hidden;
@@ -88,7 +88,7 @@ body {
 
 /* Footer */
 footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/footer.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/footer.webp');
 }
 
 footer .nav-link:hover {
@@ -98,7 +98,7 @@ footer .nav-link:hover {
 
 /* Contact Page */
 .container-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Contact.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Contact.webp');
     height: auto;
     background-repeat: no-repeat;
 }
@@ -118,7 +118,7 @@ footer .nav-link:hover {
 
 /* About Page */
 .container-about {
-    background-image: url('images/About.png');
+    background-image: url('images/About.webp');
     height: 70vh;
 }
 
@@ -133,7 +133,7 @@ footer .nav-link:hover {
 
 /* Pricing-Page */
 .container-pricing {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Pricing.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/Pricing.webp');
     height: auto;
 
 
@@ -149,7 +149,7 @@ footer .nav-link:hover {
 
 /* FAQ Page */
 .container-faq {
-    background-image: url('images/FAQs.png');
+    background-image: url('images/FAQs.webp');
     height: auto;
     margin: 0%;
 
